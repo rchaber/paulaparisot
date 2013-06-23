@@ -9,3 +9,19 @@
 	text-transform: uppercase;
 	max-width: 92%;
 }
+
+h2 {
+	margin-top: 0;
+}
+
+#masthead hgroup {
+	width: auto;
+}
+
+nav.main-navigation {
+	width: auto;
+}
+
+#page {
+	max-width: 600px;
+}

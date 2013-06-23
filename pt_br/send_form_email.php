@@ -64,7 +64,7 @@ if(isset($_POST['email'])) {
 // 'Reply-To: '.$email_from."\r\n" .
 // 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message);  
-header("Location: contactform_portuguese_success.html");
+header("Location: contactform_success.html");
 exit;
 ?>
  
