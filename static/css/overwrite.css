@@ -122,3 +122,9 @@ nav.main-navigation {
 	border-radius: 0;
 	display: none;
 }
+
+.sample_link {
+	padding: 3px 0px 0px 12px;
+	float: left;
+	background: url('../images/arrow_down_right.gif') no-repeat 0px -19px;
+}
