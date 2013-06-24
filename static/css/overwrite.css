@@ -25,3 +25,63 @@ nav.main-navigation {
 #page {
 	max-width: 600px;
 }
+
+.wmk_grid {
+	margin-left: -5px;
+	overflow: hidden;
+}
+
+.wmk_grid ul {
+	list-style: none;
+	margin: 0;
+	position: relative;
+}
+
+#small_grid ul li {
+	width: 120px;
+	padding: 4px;
+	list-style: none;
+}
+
+.wmk_grid ul li>a .zoomOverlay, .wmk_grid ul li, .w-box-header .dropdown-toggle {
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.wmk_grid ul li>a .zoomOverlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.4) url('../static/images/Magnifying-Glass.png') no-repeat center center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	display: block;
+	list-style: none;
+}
+
+.wmk_grid ul li {
+	background-color: #fff;
+	display: none;
+	border: 1px solid #ddd;
+	z-index: 20;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+.wmk_grid ul li>a, .wmk_grid ul li>a img {
+	display: block;
+}
+
+.wmk_grid ul li>a {
+	position: relative;
+}
+
+.wmk_grid ul li>a img {
+	width: 100%;
+}
