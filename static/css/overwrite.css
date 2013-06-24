@@ -110,7 +110,9 @@ nav.main-navigation {
 }
 
 #cboxClose {
-	background-position: -52px -2px;
+	background-position: -50px -1px;
+	width: 24px;
+	height: 24px;
 }
 
 #cboxLoadedContent {
