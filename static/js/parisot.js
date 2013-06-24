@@ -1,7 +1,29 @@
 $(document).ready(function() {
     //* small gallery grid
     gal_grid.small();
+    //* responsive carousel
+    beoro_rcarousel.init();
 });
+
+//* responsive carousel
+beoro_rcarousel = {
+    init: function() {
+        if($('.slidewrap').length) {
+            $('.slidewrap').rcarousel({
+                addPagination: true,
+                addNav : false,
+                rotate : true,
+                slideHed: '.headName',
+                speed: 600,
+                autoHeight: true
+            }).on({
+                'rcarousel-aftermove' : function(ui) {
+                    $('.slidewrap .slider').height($(ui.target).filter('.rcarousel-active-slide').height());
+                }
+            });
+        }
+    }
+};
 
 //* gallery grid
 gal_grid = {
