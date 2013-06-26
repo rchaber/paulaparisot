@@ -152,3 +152,19 @@ nav.main-navigation {
 #social-icons a:hover {
 	opacity: .8;
 }
+
+.accordion-group {
+	border: none;
+}
+
+.accordion-inner {
+	border: none;
+}
+
+.accordion-inner img {
+	float: left;
+}
+
+.accordion-heading .accordion-toggle {
+	display: inline;
+}
