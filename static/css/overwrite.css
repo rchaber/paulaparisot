@@ -159,6 +159,7 @@ nav.main-navigation {
 
 .accordion-inner {
 	border: none;
+	padding: 9px 15px 9px 0px;
 }
 
 .accordion-inner img {
@@ -167,4 +168,20 @@ nav.main-navigation {
 
 .accordion-heading .accordion-toggle {
 	display: inline;
+}
+
+.accordion-inner a {
+	float: right;
+	background: url('../img/pdf.png') no-repeat 0px 3px;
+	padding-left: 20px;
+	padding-right: 15px;
+	margin-bottom: 5px;
+}
+
+.accordion-heading .accordion-toggle {
+	padding: 8px 0;
+}
+
+.collapse {
+	margin-bottom: 10px;
 }
