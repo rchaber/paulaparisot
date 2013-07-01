@@ -20,6 +20,7 @@ h2 {
 
 nav.main-navigation {
 	width: auto;
+	margin-top: 10px;
 }
 
 #page {
@@ -129,4 +130,64 @@ nav.main-navigation {
 	padding: 3px 0px 0px 12px;
 	float: left;
 	background: url('../images/arrow_down_right.gif') no-repeat 0px -19px;
+}
+
+#colophon {
+	padding: 0;
+	min-height: 100px;
+}
+
+#social-icons {
+	float: right;
+	margin-right: 15px;
+	height: 0;
+	top: 35px;
+	position: relative;
+	display: block;
+}
+
+#social-icons a {
+	opacity: .2;
+}
+
+#social-icons a:hover {
+	opacity: .8;
+}
+
+.accordion-group {
+	border: none;
+}
+
+.accordion-inner {
+	border: none;
+	padding: 9px 15px 9px 0px;
+}
+
+.accordion-inner img {
+	float: left;
+}
+
+.accordion-heading .accordion-toggle {
+	display: inline;
+}
+
+.accordion-inner a {
+	float: right;
+	background: url('../img/pdf.png') no-repeat 0px 3px;
+	padding-left: 20px;
+	padding-right: 15px;
+	margin-bottom: 5px;
+}
+
+.accordion-heading .accordion-toggle {
+	padding: 8px 0;
+}
+
+.collapse {
+	margin-bottom: 10px;
+}
+
+a.no-icon {
+	background: none;
+	padding-left: 0;
 }
