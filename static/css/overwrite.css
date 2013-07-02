@@ -23,11 +23,13 @@ nav.main-navigation {
 	margin-top: 10px;
 }
 
+/*
 .main-navigation li:first-of-type {
 	float: right;
 	margin: 0 10px 5px 20px;
 	position: relative;
 }
+*/
 
 #page {
 	max-width: 600px;
