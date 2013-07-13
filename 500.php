@@ -10,7 +10,6 @@
 	ga('send', 'pageview');
 </script>
 
-
 </head>
 
 <body bgcolor=white>
