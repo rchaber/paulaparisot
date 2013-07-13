@@ -20,7 +20,16 @@ h2 {
 
 nav.main-navigation {
 	width: auto;
+	margin-top: 10px;
 }
+
+/*
+.main-navigation li:first-of-type {
+	float: right;
+	margin: 0 10px 5px 20px;
+	position: relative;
+}
+*/
 
 #page {
 	max-width: 600px;
@@ -184,4 +193,9 @@ nav.main-navigation {
 
 .collapse {
 	margin-bottom: 10px;
+}
+
+a.no-icon {
+	background: none;
+	padding-left: 0;
 }
